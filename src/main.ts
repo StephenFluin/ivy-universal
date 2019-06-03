@@ -116,7 +116,7 @@ function registerLazyCustomElements(elementsMetadata: any[]) {
 const ELEMENTS_METADATA = [
   'shell-root', [],
   // PAGES
-  'page-index', [],
+  'page-index', ['posts', 'posts'],
   'page-products-id', ['id', 'id'],
   'page-cart', [],
   'page-shipping', [],
